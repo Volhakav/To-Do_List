@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(239, 174, 222);
+}
+.main{
+    text-align: center;
+}
+
+.task{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    height: 30px;
+    margin-bottom: 100px;
+}
+#btnAdd{
+    background-color: rgb(174, 232, 174);
+    border: none;
+    margin-left: 10px;
+    width: 100px;
+    font-size: 15px;
+}
+
+#fname{
+    width: 300px;
+}
+
+li{
+    display: flex;
+    list-style: none;
+    font-size: 25px;
+    margin-bottom: 10px;
+    max-width: 1300px;
+}
+
+.task-left {
+    display: flex;
+    align-items: center;
+    flex-grow: 1; /* take all remaining space */
+}
+
+.myCheckBox{
+    margin-right: 50px;
+}
+
+.deleteButton{
+    background-color: rgb(227, 98, 98);
+    font-size: 15px;
+    margin-right: 100px;
+    border: none;
+    width: 150px;
+    cursor: pointer;
+}
